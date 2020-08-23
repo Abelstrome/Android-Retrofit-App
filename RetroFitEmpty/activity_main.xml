@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tblLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    android:collapseColumns="*"-->
+    <!--    android:stretchColumns="*">-->
+
+    <TableRow
+        android:id="@+id/tblRowHead1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spnSelector"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_span="3"
+            android:background="#03A9F4"
+            android:outlineProvider="background" />
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_span="4"
+            android:background="#8BC34A"
+            android:hint="Player Name"
+            android:inputType="text"
+            android:paddingStart="5dp"
+            android:paddingTop="2dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextx"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_span="4"
+            android:background="#8BC34A"
+            android:hint="Player Name"
+            android:inputType="text"
+            android:paddingStart="5dp"
+            android:paddingTop="2dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="#F44336"
+            android:text="Go"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRowHead2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtVwResult3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_span="12"
+            android:background="#FFC107"
+            android:paddingStart="5dp"
+            android:paddingBottom="2dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+        <Button
+            android:id="@+id/stack00"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack02"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack03"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack04"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack05"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack06"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack07"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack08"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack09"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+        <Button
+            android:id="@+id/stack10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack11"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack12"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack13"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack15"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack17"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack18"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack19"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+        <Button
+            android:id="@+id/stack20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack21"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack22"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack23"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack24"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack25"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack26"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack27"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack28"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack29"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+        <Button
+            android:id="@+id/stack30"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack31"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack32"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack33"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/stack_circle_empty"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/stack34"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack35"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack36"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack37"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack38"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:id="@+id/stack39"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:background="@drawable/stack_circle_empty" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:stretchColumns="*" />
+
+    </TableRow>
+
+</TableLayout>

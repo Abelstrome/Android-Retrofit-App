@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RetroFitEmpty</string>
+    <string name="PlayerInfo">Player Info</string>
+    <string name="GameStatus">Game Status</string>
+    <string name="NewGameP1">New Game</string>
+    <string name="NewGameP2">Add P2 to New Game</string>
+    <string name="PlayerNameMissing">Must enter player name</string>
+    <string name="PlayerNamePinMissing">Must enter player name and pin e.g. fred/1234</string>
+    <string name="GameRefMissing">Must enter Game Ref as a number</string>
+    <string name="PinMissing">Must enter the player pin e.g. fred/1234</string>
+    <string name="NotYorN">Must enter "Y" or "N"</string>
+    <string name="Empty">E</string>
+    <string name="P2">P2</string>
+    <string name="P1">P1</string>
+    <string name="Move">Make a move</string>
+</resources>
